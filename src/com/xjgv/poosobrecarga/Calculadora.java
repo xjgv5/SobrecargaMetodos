@@ -5,6 +5,22 @@ public class Calculadora {
         return a+b;
     }
 
+    public int suma(int... argumentos){
+        int total = 0;
+        for (int i: argumentos){
+            total+=i;
+        }
+        return total;
+    }
+
+    public float suma(float a, int... argumentos){
+        float total = a;
+        for (int i: argumentos){
+            total+=i;
+        }
+        return total;
+    }
+
     public float suma(float a, float b){
         return a + b;
     }

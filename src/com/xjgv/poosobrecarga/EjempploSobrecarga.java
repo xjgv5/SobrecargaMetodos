@@ -11,7 +11,8 @@ public class EjempploSobrecarga {
         System.out.println("Sumar double : " + calculadora.suma(3.12, 4.21));
         System.out.println("Sumar string : " + calculadora.suma("21", "43"));
         System.out.println("Sumar 3 enteros : " + calculadora.suma(10, 5, 21));
-
+        System.out.println("Sumar 6 enteros : " + calculadora.suma(3,2,1,4,2,4));
+        System.out.println("Sumar float + n int"+ calculadora.suma(4f + 10, 21, 22, 1, 3, 2));
         System.out.println("Suma long : " + calculadora.suma(10l, 20L));
 
     }
